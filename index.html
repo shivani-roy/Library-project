@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Library</title>
+    <link
+      rel="stylesheet"
+      href="./styles.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <section class="section">
+      <div class="book-container">
+        
+      </div>
+      <button class="btn new-btn">add new book</button>
+    </section>
+
+    <section class="form-modal">
+      <div class="form-container">
+        <button class="close-btn"><i class="fas fa-times"></i></button>
+        <form
+          action=""
+          class="form"
+        >
+          <h2>Book Details</h2>
+          <div class="form-row">
+            <label for="title">title :</label>
+            <input
+              type="text"
+              class="form-input"
+              name="title"
+              required
+            />
+          </div>
+          <div class="form-row">
+            <label for="author">author :</label>
+            <input
+              type="text"
+              class="form-input"
+              name="author"
+              required
+            />
+          </div>
+          <div class="form-row">
+            <label for="pages">pages :</label>
+            <input
+              type="text"
+              class="form-input"
+              name="pages"
+              required
+            />
+          </div>
+          <div class="form-row">
+            <label for="read">read? :</label>
+            <input
+              type="text"
+              class="form-input"
+              name="read"
+              required
+            />
+          </div>
+          <p class="msg"></p>
+          <button class="btn submit-btn">submit</button>
+        </form>
+      </div>
+    </section>
+    <script src="./app.js"></script>
+  </body>
+</html>
